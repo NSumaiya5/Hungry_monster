@@ -1,0 +1,30 @@
+body{
+background-color:rgb(253, 215, 253);
+}
+#mealsBox{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10px;
+}
+
+#meals img{
+    width: 255px;
+    border-radius: 30px;
+
+
+}
+#meals h3{
+    font-size: 20px;
+}
+#mealImg{
+    width: 255px;
+    border-radius: 20px;
+    
+
+}
+#ingredientBox{
+    
+    text-align: justify;
+    width: 260px;
+ 
+}
